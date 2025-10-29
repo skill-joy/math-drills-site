@@ -27,6 +27,25 @@ body {
   background: var(--background);
 }
 
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 24px;
+  padding: 12px 18px;
+  background: #ffffff;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  box-shadow: 0 10px 25px rgba(40, 88, 255, 0.2);
+  color: var(--accent);
+  font-weight: 600;
+  transition: top 0.2s ease;
+  z-index: 999;
+}
+
+.skip-link:focus {
+  top: 24px;
+}
+
 a {
   color: var(--accent);
   font-weight: 600;
