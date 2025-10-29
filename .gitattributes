@@ -1,0 +1,5 @@
+# Treat media assets as binary so git/web editors never rewrite them
+*.gif binary
+*.png binary
+*.jpg binary
+*.jpeg binary
